@@ -15,14 +15,17 @@
   }
 
   body {
-    background-color: aqua;
-    color: black;
-    font-family: Arial, Helvetica,sans-serif;
-    text-align: center;
-    /* set the background color here */
-    /* set the text color to black here */
-    /* set the font here */
-    /* set the text alignment here */
+        background-image: url("https://thegalwayreview.files.wordpress.com/2013/02/website-background-wincustomize-explore-clouds-284048.jpg?w=900");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 100% 100%;
+        color: black;
+        font-family: Arial, Helvetica,sans-serif;
+        text-align: center;
+        /* set the background color here */
+        /* set the text color to black here */
+        /* set the font here */
+        /* set the text alignment here */
    }
 
   footer {
@@ -31,6 +34,7 @@
   }
 
   h1 {
+    text-shadow: 5px 2px rgb(255, 47, 210);
     margin-bottom: 0.5rem;
     margin-top: 3rem;
    }

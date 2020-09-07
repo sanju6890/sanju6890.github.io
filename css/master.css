@@ -35,27 +35,15 @@
   }
 
   h1 {
-    font-size: 60px;
-    color: transparent;
-    -webkit-text-stroke: 1px #ffea00;
-    background: url(back.png);
-    -webkit-background-clip: text;
-    backgroung-position: 0 0;
-    animation: back 20s linear infinite;
-   }
-@keyframes back{
-  100%{
-  background-position: 2000px 0;
-  }
-}
-
-  h2 {
-    text-shadow: 5px 2px rgb(255, 47, 210);
+    text-shadow: 5px 2px rgb(125, 251, 211);
     margin-bottom: 0.5rem;
     margin-top: 3rem;
-    /*color: #075AAB;
+   }
+
+  h2 {
+    color: #075AAB;
     margin-bottom: 2.5rem;
-    margin-top: 2.5rem;*/
+    margin-top: 2.5rem;
     /*set the text color of to #075AAB here */
     /* set both the bottom margin and top margin to 2.5rem here */
    }

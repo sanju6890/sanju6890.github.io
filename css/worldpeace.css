@@ -1,6 +1,3 @@
-/* Cascading stylesheet for the web page "World Peace Issue List"
-   Created by Harrison Kong
-   Copyright (C) Coursera 2020 */
 
 body {
   background-color: darkgreen;
@@ -36,7 +33,7 @@ a:hover {
 
 table {
   margin-bottom: 2rem;
-  width: 100%;
+  width: auto;
 }
 
 table,

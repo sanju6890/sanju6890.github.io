@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<!-- Web page "TECH-deets"  -->
+<!-- Created by Sanjay Kumar           -->
+<!-- Copyright (C) SANJAY KUMAR 2020        -->
+
+<html lang="en">
+  <header>
+    <meta charset="UTF-8" />
+    <link rel="FaviconIcon" href="worldpeace1.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="worldpeace1.ico" type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="“Pragma”" content="”no-cache”" />
+    <meta http-equiv="“Expires”" content="”-1″" />
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”" />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/worldpeace.css" />
+
+    <title>TECH-deets Forum</title>
+  </header>
+
+  <body>
+    <!-- <img class="hero" src="banner.jpg" alt="banner" /> -->
+
+    <h1 class="section-heading">
+      <img class="logo" src="logo.png" alt="logo" />&nbsp;TECH-deets Forum
+    </h1>
+    <h2 class="section-subheading"><em>"Technology is our DNA"</em></h2>
+    <h3 class="section-subheading">Present Query List</h3>
+
+    <div class="results-div">
+      <table>
+        <col width="15%" />
+        <col width="65%" />
+        <col width="10%" />
+        <col width="10%" />
+        <thead class="highlight-cell">
+          <th>Fields</th>
+          <th>Query Description</th>
+          <th>Resolved?</th>
+          <th>Delete</th>
+        </thead>
+        <tbody id="list-table-body"></tbody>
+
+        <tfoot class="empty-cell">
+          <td>
+            <select id="severity-dropdown">
+              <option value="AI & ML">AI & ML</option>
+              <option value="IoT">IoT</option>
+              <option value="Cyber Security">Cyber Security</option>
+              <option value="Web Development">Web Development</option>
+              <option value="C, C++, Python">C, C++, Python</option>
+            </select>
+          </td>
+          <td>
+            <input
+              class="textfield"
+              id="description-textfield"
+              type="text"
+              name="description-textfield"
+              placeholder="e.g. What is Big data?"
+            />
+          </td>
+          <td>
+            <select id="resolved-dropdown">
+              <option value="no">no</option>
+              <option value="yes">yes</option>
+            </select>
+          </td>
+          <td></td>
+        </tfoot>
+      </table>
+      <div class="button">
+        <input
+          class="button btn btn-primary"
+          value="Add New Query"
+          id="addButton"
+          onclick="addNewIssue()"
+        />
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="section-divider"><img src="infinity-line.png" /></div>
+
+    <br />
+    <p>
+      <code class="copyright-text">Powered by 🔥 Google Firebase</code>
+    </p>
+
+    <code class="copyright-text"
+      >Developed with ❤️ By
+      <a href="https://sanju6890.github.io/" target="_blank"
+        >Sanjay Kumar</a
+      ></code
+    >
+  </footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-analytics.js"></script>
+
+  <!-- STEP 2: ADD the database LIBRARY -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+  <!-- Our codes -->
+  <script src="worldpeaceissues.js?v=1"></script>
+</html>

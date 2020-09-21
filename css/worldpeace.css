@@ -33,7 +33,7 @@ a:hover {
 
 table {
   margin-bottom: 2rem;
-  width: 80%;
+  width: 100%;
 }
 
 table,
@@ -68,7 +68,8 @@ td {
 
 .results-div {
   margin: auto;
-  max-width: auto;
+  max-width: 80%;
+  align-content: center;
   text-align: center;
 }
 

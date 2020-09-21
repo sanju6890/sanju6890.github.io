@@ -67,6 +67,8 @@ td {
 }
 
 .results-div {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   margin: auto;
   max-width: 80%;
   align-content: center;

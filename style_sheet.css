@@ -6,8 +6,8 @@
 #img
 {
     display:inline-block;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-style: groove;
     border-color: goldenrod;
     border-radius: 21px;
@@ -22,7 +22,7 @@
     border-width: 5px;
     margin: 10px 20px;
     padding: 10px;
-    font-size: 40px;
+    font-size: 22px;
 }
 
 .about, .education, .skills, .experience, .projects, .achievements, .contact
@@ -36,4 +36,9 @@
 {
     font-size: 18px;
     font-weight: bolder;
+}
+
+h3
+{
+    text-decoration: underline;
 }
